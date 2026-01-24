@@ -25,13 +25,13 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/bfineran11",
     essential: false,
   },
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
+    link: "https://www.instagram.com/brendanpfmusic/",
     essential: true,
   },
   {
@@ -249,9 +249,79 @@ const gallery: Gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/horizontal-1.jpg",
+      src: "/images/gallery/Allstars_1.jpeg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/Allstars_2.jpeg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/Allstars_3.jpeg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/Board_1.jpeg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/Board_2.jpeg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/Board_3.jpeg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/CBW_1.jpeg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/DXD_24_1.jpeg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/DXD_24_2.jpeg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/grad_party_24.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/Micahs_guitar.jpeg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/Sonic_journeys.jpeg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/Summerfest_shred_1.jpeg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/token_24_1.jpeg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/token_24_2.jpeg",
+      alt: "image",
+      orientation: "vertical",
     },
   ],
 };
