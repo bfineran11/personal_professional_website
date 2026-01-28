@@ -42,7 +42,7 @@ const social: Social = [
   },
   {
     name: "Phone",
-    icon: "phone",
+    icon: "",
     link: 'tel:2488054566',
     essential: true,
   }
@@ -66,7 +66,7 @@ const home: Home = {
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "",
   },
   subline: (
     <>
