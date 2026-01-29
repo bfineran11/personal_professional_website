@@ -58,13 +58,7 @@ const home: Home = {
   featured: {
     display: false,
     title: (
-      <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
-        <Line background="brand-alpha-strong" vert height="20" />
-        <Text marginRight="4" onBackground="brand-medium">
-          Featured work
-        </Text>
-      </Row>
+      <></>
     ),
     href: "",
   },
@@ -96,10 +90,10 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Brendan is a multi-instrumentalist with a focus on guitar.
-        He has been playing and gigging for the past ten years.
-        He has dedicated his life to music, with his work spanning
-        production and engineering, songwriting, performance, and teaching.
+        Brendan is a multi-instrumentalist with a focus on guitar. He has been gigging
+        for the past 5 years and has gone on tour with the School of Rock All Stars. In the
+        time in between gigs, he has been working on personal music projects and creating
+        self-promotion content on Instagram and Facebook. 
       </>
     ),
   },
@@ -163,58 +157,22 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "C++, C#, Java, Python, HTML, CSS, JS",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Brendan has expierence working with these programming languages and the common
+          toolsets and programs associated with them. He has used these languages both professionaly
+          and for passion projects.</>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
+
           },
         ],
+
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
-        tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+  
           },
         ],
       },
@@ -224,7 +182,7 @@ const about: About = {
 
 const blog: Blog = {
   path: "/blog",
-  label: "Gigs",
+  label: "Blog",
   title: "Writing about music and gigs...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
@@ -235,7 +193,7 @@ const work: Work = {
   path: "/work",
   label: "Works",
   title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
+  description: `Music and other general projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
