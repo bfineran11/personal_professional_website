@@ -64,7 +64,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Brendan Fineran, a guitar player in Detroit and Boston. I'm currently attending Berklee College of Music. I teach, gig, and write. Contact me if you're intrested in any of my services!
+      I'm Brendan Fineran, a guitar player in Detroit and Boston. I'm currently attending Berklee College of Music. I teach, gig, and write. Contact me if you're interested in any of my services!
     </>
   ),
 };
